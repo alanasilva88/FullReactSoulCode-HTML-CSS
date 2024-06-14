@@ -2,14 +2,17 @@ body{
     background-color: #D3D3D3;
     font-family:"Roboto", sans-serif;
     color: #00008B;
+    text-align: center;
 }
 h1, h2, h3{
     color: darkgreen;
 }
-a{
+a, li{
     text-decoration: none;
     padding-right: 10px;
+    list-style-type: none;
 }
+
 img{
     width: 500px;
     border-radius: 16px;
