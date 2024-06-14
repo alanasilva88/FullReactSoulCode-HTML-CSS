@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom right, #00bfff, #ffd700);
+    background: -webkit-linear-gradient(to bottom right, #00bfff, #ffd700);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333; 
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+h1 {
+    color: #333; 
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
