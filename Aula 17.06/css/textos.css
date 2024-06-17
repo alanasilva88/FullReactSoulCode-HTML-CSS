@@ -1,0 +1,61 @@
+/* Propriedades de fonte e texto */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 12px;
+}
+
+p {
+    text-align: center;
+    font-style: oblique;
+    /* peso da fonte do thin - black*/
+    font-weight: 800;
+    /* Para utilizar underline ou afins */
+    text-decoration: none; 
+    /* Espaçamento entre letras */
+    /* letter-spacing: 0px; */
+    /* Espaçamento entre linhas */
+    /* line-height: 0px; */
+    /* hexadecimal/ rgb/ rgba */
+    color: #0bbc;
+    /* color: rgb(red, green, blue);
+    color: rgba(red, green, blue, 1);  varia de 0 a 1 */
+    font-size: 2rem;
+}
+
+/* 
+
+    - Unidades absolutas (px, cm, pt, etc)
+    - Unidades relativas (
+    vh - viewport height (altura da tela) 
+    vw - viewport width (largura da tela)
+    % - relativo ao elemento pai
+    rem - 
+
+*/
+.quadrado1 {
+    background-color: royalblue;
+    width: 150px;
+    height: 150px;
+}
+
+.quadrado2 {
+    background-color: chartreuse;
+    width: 20vw;
+    height: 10vh;
+}
+
+/* Na porcentagem tem que ter uma altura do elemento pai definido */
+.quadrado3 {
+    background-color: tomato;
+    width: 60%;
+    height: 40%;
+}
+
+.quadrado4 {
+    background-color: violet;
+    height: 300px;
+}
+

@@ -1,0 +1,33 @@
+/* Seletor de elemento */
+
+/* O recurso "important" ignora a prioridade padrão */
+p {
+    color: blue;
+}
+
+/* Seletor de classe mais específico, utilizado para estilizar vários elementos */
+.destaque {
+    background-color: yellowgreen;
+    color: red;
+    text-decoration: underline;
+}
+
+/* É possível colocar várias classes em um mesmo elemento, neste caso vai valer o efeito cascata, sendo prioridade quem vinher por último */
+.texto-centro {
+    text-align: center;
+    color: black;
+}
+
+/* Seletor ID - aplicado e um único elemento da página e tem mais prioridade que os demais quando se fala do mesmo estilo */
+#paragrafo {
+    background-color: crimson;
+    color: white;
+    text-align: right;
+}
+
+/* Especificidade = Elemento < Classe < ID */
+
+/* Propriedade herdada dos elementos pai para filhos */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

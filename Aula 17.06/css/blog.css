@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.secao {
+    width: 400px;
+    margin: 16px auto;
+    background: linear-gradient(65deg, grey,orange);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+/* Box Shadow 
+Com CSS você pode adicionar sombra ao texto e aos elementos.
+
+-> text-shadow
+-> box-shadow
+
+x (horizontal) y(vertical) desfoque spread color
+esquerdo - negativo
+direito - positivo
+*/
+
+.figura {
+    height: 150px;
+    box-shadow: 10px 10px 5px 0px grey;
+}
+
+/* Combinador de descendente */
+.secao p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
