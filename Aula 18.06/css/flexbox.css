@@ -1,0 +1,58 @@
+/* Base de início */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: aqua;
+}
+
+.item-3 {
+    background-color: blueviolet;
+    /* Define alinhamento individual do eixo cross */
+    /* flex-start - flex-end - center - stretch */
+    /* necessário tirar o align-content */
+    /* align-self: center; */
+}
+
+.item-4 {
+    background-color: chartreuse;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    width: 200px;
+    padding: 8px;
+}
+
+.container {
+    background-color: gray;
+    padding: 8px;
+    /* Ativa o flexbox */
+    display: flex;
+    /* Define se é row ou column */
+    flex-direction: row;
+    /* Define se há quebra de linha ao faltar espaço tem haver com responsividade */
+    flex-wrap: wrap;
+    /* Ajustar os elementos no eixo main */
+    /* Start - end - center - space-between - space-around - space-evenly */
+    justify-content: center;
+    /* Strech - flex-start - flex-end - center */
+    /* eixo cross */
+    align-items: center;
+    /* Necessário ter altura definida */
+    height: 100vh;
+    /* Ajusta os elementos quando usamos wrap */
+    /* Space-between - space-around - center - flex-start - flex-end */
+    /* align-content: center; */
+    gap: 16px;
+
+}
+
+
