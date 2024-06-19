@@ -130,7 +130,7 @@ footer {
     bottom: 0;
 }
 
-/* Media Queries para responsividade mobile */
+/* Media Queries para responsividade */
 @media (max-width: 768px) {
     .cabecalho {
         padding: 32px 16px;

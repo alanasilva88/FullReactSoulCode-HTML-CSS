@@ -1,0 +1,29 @@
+
+/* Dispositivos Mobile (0 - 480px) */
+@media (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Dispositivos Tablet (481px - 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  /* Dispositivos Laptops (769px - 1279px) */
+  @media (min-width: 769px) and (max-width: 1279px) {
+    body {
+      background-color: lightcoral;
+    }
+  }
+  
+  /* Dispositivos Desktop (1280px +) */
+  @media (min-width: 1280px) {
+    body {
+      background-color: lightgoldenrodyellow;
+    }
+  }
+  

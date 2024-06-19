@@ -55,4 +55,16 @@
 
 }
 
-
+/* Media Queries para responsividade */
+/* Para dispositivos mobile */
+@media (max-width: 768px) {
+    /* Ajusta a largura dos itens em telas menores */
+    .item-1, .item-2, .item-3, .item-4 {
+      width: 100%;
+    }
+  
+    /* Ajuste de 100% da largura da tela */
+    .container {
+      width: 100%;
+    }
+  }
