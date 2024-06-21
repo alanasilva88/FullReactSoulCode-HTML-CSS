@@ -86,6 +86,10 @@ input {
     padding: 16px;
 }
 
+.flex-container {
+    display: none;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -130,13 +134,8 @@ footer {
     bottom: 0;
 }
 
-/* Media Queries para responsividade */
-@media (max-width: 768px) {
-    .cabecalho {
-        padding: 32px 16px;
-        height: auto;
-    }
-
+    
+@media (max-width:769px) {
     .titulo {
         font-size: 2.5rem;
     }
@@ -146,12 +145,31 @@ footer {
     }
 
     .newsletter {
-        width: 75%;
-        padding: 8px;
+        width: 80%;
+        padding: 6px;
+    }
+    .cronograma {
+        display: none;
     }
 
-    .cronograma {
+    .flex-container {
+        display: flex;
+        border-collapse: collapse;
+        width:80%;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .flex-container h3 p {
+        border: 1px solid #ccc;
         padding: 8px;
+    }
+    
+    .flex-container h3 {
+        text-align: left;
+        background-color: #ccc;
+        color: #121212;
+        border-color: #121212;
     }
 
     .btn {
@@ -162,4 +180,7 @@ footer {
     footer {
         padding: 0.5rem;
     }
+    
+   
+
 }
